@@ -1,0 +1,72 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.0.0
+        with:
+          node-version: 14.x
+          # Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default.
+          registry-url: https://registry.npmmirror.com/
+          cache-dependency-path: pnpm-lock.yaml
+      
+      - name: 安装 pnpm
+        run: |
+          npm install pnpm -g
+          
+      - name: 安装 Hexo
+        run: |
+          pnpm install hexo-cli -g
+          
+      - name: 缓存 Hexo
+        uses: actions/cache@v2.1.7
+        id: cache
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/pnpm-lock.yaml')}}
+
+      - name: 安装项目依赖
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          pnpm i
+
+      - name: 生成静态文件
+        run: |
+          hexo clean
+          hexo generate
+
+      - name: 设定git
+        run: |
+          git config --global user.name "chundot"
+          git config --global user.email "qq783114458@gmail.com"
+  
+      - name: 部署
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          sed -i "s/#TOKEN#/$GH_TOKEN/g" _config.yml
+          hexo deploy

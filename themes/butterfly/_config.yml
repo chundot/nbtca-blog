@@ -3,14 +3,14 @@
 # --------------------------------------
 
 menu:
-  # Home: / || fas fa-home
+  主页: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
+  友情链接: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -241,7 +241,7 @@ addThis:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/
@@ -624,7 +624,12 @@ aside:
       link: https://jq.qq.com/?_wv=1027&k=QZOHfw83
   card_announcement:
     enable: true
-    content: 暂无公告
+    content: |
+      <strong>桌面布局分享活动长期进行中!</strong>
+      <br>
+      各位可以分享下自己桌面的布局加之以一段简单的介绍和心得体会，我们会定期汇总投放在博客！
+      <br>
+      <strong>投递邮箱：chundot@foxmail.com</strong>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -791,10 +796,10 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline

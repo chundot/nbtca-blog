@@ -1,0 +1,22 @@
+- class_name: 博客链接
+  class_desc: 各位同学们的博客。
+  link_list:
+    - name: 江蕾的博客
+      link: https://www.cnblogs.com/JLay
+      avatar: https://s2.loli.net/2022/03/06/DoEH51Nj97Ah64a.png
+      descr: 前端。
+    - name: 黄文轩的博客
+      link: http://110.42.246.140/
+      avatar: https://s2.loli.net/2022/03/06/4J9NfH1UZD3sz5I.png
+      descr: 网安，Linux和C/C++。
+    - name: 陈学书的博客
+      link: https://www.cnblogs.com/Flat-White
+      avatar: https://s2.loli.net/2022/03/06/VjBGkQ6c58vH4l9.png
+      descr: Mac和流水账。
+- class_name: 友情链接
+  class_desc: 本站使用的框架和主题。
+  link_list:
+    - name: Hexo
+      link: https://hexo.io
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的博客框架。

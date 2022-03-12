@@ -13,6 +13,17 @@
       link: https://www.cnblogs.com/Flat-White
       avatar: https://s2.loli.net/2022/03/06/VjBGkQ6c58vH4l9.png
       descr: Mac和流水账。
+- class_name: 浙大宁波理工学院相关
+  class_desc: 学校的相关链接
+  link_list:
+    - name: 教务管理系统
+      link: http://jwxt.nit.net.cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 教务管理系统。
+    - name: 学工管理系统
+      link: http://xgxt.nit.net.cn/xgxt/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 学生工作信息管理系统。
 - class_name: 友情链接
   class_desc: 本站使用的框架和主题。
   link_list:

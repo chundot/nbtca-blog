@@ -2,7 +2,7 @@
 title: Visual Studio Code入门操作指北
 tid: try-vscode
 date: 2022-03-04 10:23:23
-cover: https://oss.chundot.xyz/picgo/1eVbN2X7aqdBucl.jpg
+cover: https://clas-bucket.oss-cn-hangzhou.aliyuncs.com/uPic/try-code.png
 tags:
   - vscode
   - ide

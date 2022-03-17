@@ -2,46 +2,45 @@
 title: Visual Studio Code入门操作指北
 tid: try-vscode
 date: 2022-03-04 10:23:23
-cover: https://s2.loli.net/2022/03/08/1eVbN2X7aqdBucl.jpg
+cover: https://oss.chundot.xyz/picgo/1eVbN2X7aqdBucl.jpg
 tags:
   - vscode
   - ide
 categories: IDE
 description: vscode入门指北，介绍一些常用操作。
-
 ---
 
-# Visual Studio Code入门指北
+# Visual Studio Code 入门指北
 
 ## 介绍
 
-[vscode的官方地址。](https://code.visualstudio.com/)
+[vscode 的官方地址。](https://code.visualstudio.com/)
 
-vscode是由微软团队推出的一款**开源**的**代码编辑器**，有丰富的**扩展**。
+vscode 是由微软团队推出的一款**开源**的**代码编辑器**，有丰富的**扩展**。
 
 ---
 
-## 为什么使用vs code?
+## 为什么使用 vs code?
 
 扩展支持**C/C++**的开发：
 
-![](https://s2.loli.net/2022/03/09/8cWuBzF4XeAjdE2.gif)
+![](https://oss.chundot.xyz/picgo/8cWuBzF4XeAjdE2.gif)
 
-同时[vs code内置Emmet支持](https://docs.emmet.io/cheat-sheet/)，前端是再合适不过了：
+同时[vs code 内置 Emmet 支持](https://docs.emmet.io/cheat-sheet/)，前端是再合适不过了：
 
-![](https://s2.loli.net/2022/03/10/3R1HVIyfDLmTbdg.gif)
+![](https://oss.chundot.xyz/picgo/3R1HVIyfDLmTbdg.gif)
 
-![vscode-emmet-css](https://s2.loli.net/2022/03/10/TedcPw8KplHf2IY.gif)
+![vscode-emmet-css](https://oss.chundot.xyz/picgo/TedcPw8KplHf2IY.gif)
 
 除此之外，**丰富的扩展**还能支持其他语言的开发：
 
-![vscode-go-hw](https://s2.loli.net/2022/03/10/lUJINBQbGVD87c4.gif)
+![vscode-go-hw](https://oss.chundot.xyz/picgo/lUJINBQbGVD87c4.gif)
 
-![vscode-rust-hw](https://s2.loli.net/2022/03/10/WIliEaTm82ZBFGN.gif)
+![vscode-rust-hw](https://oss.chundot.xyz/picgo/WIliEaTm82ZBFGN.gif)
 
 **重构**功能（快捷键`F2`）：
 
-![vscode-cs-refractor](https://s2.loli.net/2022/03/10/u7QD2qsrLR3YUeb.gif)
+![vscode-cs-refractor](https://oss.chundot.xyz/picgo/u7QD2qsrLR3YUeb.gif)
 
 ---
 
@@ -65,17 +64,17 @@ vscode是由微软团队推出的一款**开源**的**代码编辑器**，有丰
 
 ### 安装中文
 
-第一次运行vscode时，右下角通知有提醒，可以直接**安装并重启**，界面就变成中文了。
+第一次运行 vscode 时，右下角通知有提醒，可以直接**安装并重启**，界面就变成中文了。
 
 ![image-20211025203252544](https://oss.chundot.xyz/picgo/image-20211025203252544.png)
 
-或者你可以点选左侧工具栏的**扩展(最下面)图标**，搜索框输入Chinese，安装安装次数最高的那个语言插件并重启。
+或者你可以点选左侧工具栏的**扩展(最下面)图标**，搜索框输入 Chinese，安装安装次数最高的那个语言插件并重启。
 
 ![image-20211025203716083](https://oss.chundot.xyz/picgo/image-20211025203716083.png)
 
 ### 创建第一个项目
 
-你可以随意的选择一个你希望保存你所有代码的目录，创建一个新的文件夹，在vscode中单击**文件**--**打开文件夹**选择新创建的文件夹并打开。
+你可以随意的选择一个你希望保存你所有代码的目录，创建一个新的文件夹，在 vscode 中单击**文件**--**打开文件夹**选择新创建的文件夹并打开。
 
 然后选择**是，我信任此作者**即可。
 
@@ -99,9 +98,9 @@ vscode是由微软团队推出的一款**开源**的**代码编辑器**，有丰
 
 你可以单击或双击**资源管理器的文件**使其显示在编辑器中。点选我们刚创建的`index.html`(可能已经打开了)，在右侧即可开始编写代码。
 
-对于HTML和CSS，vscode内置了[emmet](https://emmet.io/)，非常高效的前端**代码片段**合集。**我们之后将会更加详细讲解这部分功能**。
+对于 HTML 和 CSS，vscode 内置了[emmet](https://emmet.io/)，非常高效的前端**代码片段**合集。**我们之后将会更加详细讲解这部分功能**。
 
-[在这里查阅emmet的奇技淫巧！](https://docs.emmet.io/cheat-sheet/)
+[在这里查阅 emmet 的奇技淫巧！](https://docs.emmet.io/cheat-sheet/)
 
 ![vscode-emmet](https://oss.chundot.xyz/picgo/vscode-emmet.gif)
 
@@ -117,7 +116,7 @@ vscode是由微软团队推出的一款**开源**的**代码编辑器**，有丰
 
 个人比较喜欢的编辑器配色插件。有三种方案可选。
 
-当然，vscode有好几种自带的配色方案，如果你觉得自带够用，你完全可以不安装这个插件！
+当然，vscode 有好几种自带的配色方案，如果你觉得自带够用，你完全可以不安装这个插件！
 
 ![](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/normal.png)
 
@@ -125,7 +124,7 @@ vscode是由微软团队推出的一款**开源**的**代码编辑器**，有丰
 
 ![image-20211026153649933](https://oss.chundot.xyz/picgo/image-20211026153649933.png)
 
-非常棒的图标库，为vscode添加及更新了许多文件和文件夹的图标（文件根据后缀名，文件夹根据名称自动更改图标）。
+非常棒的图标库，为 vscode 添加及更新了许多文件和文件夹的图标（文件根据后缀名，文件夹根据名称自动更改图标）。
 
 ![image-20211026153545952](https://oss.chundot.xyz/picgo/image-20211026153545952.png)
 
@@ -137,7 +136,7 @@ vscode是由微软团队推出的一款**开源**的**代码编辑器**，有丰
 
 想要编辑快捷键或查看相关命令，你可以按下`Ctrl + K`再按下`Ctrl + S`。
 
-比如，我想找与括号相关的快捷键，我可以输入bracket模糊搜索：
+比如，我想找与括号相关的快捷键，我可以输入 bracket 模糊搜索：
 
 ![image-20211025205452863](https://oss.chundot.xyz/picgo/image-20211025205452863.png)
 
@@ -161,7 +160,7 @@ vscode是由微软团队推出的一款**开源**的**代码编辑器**，有丰
 
 `Ctrl + i`
 
-有时候vscode的代码建议不会自动跳出。
+有时候 vscode 的代码建议不会自动跳出。
 
 每当你看不到代码提示感到心慌的时候，就按一下。
 
@@ -203,9 +202,9 @@ vscode是由微软团队推出的一款**开源**的**代码编辑器**，有丰
 
 你可以点选左侧工具栏最下方的设置图标找到**设置**选项。
 
-你可以使用快捷键`Ctrl + ,`打开vscode的设置选项。
+你可以使用快捷键`Ctrl + ,`打开 vscode 的设置选项。
 
-### XX时格式化
+### XX 时格式化
 
 搜索框搜索**Format On**：
 

@@ -94,11 +94,16 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: "git"
+  type: 'git'
   repo:
     github: https://chundot:#TOKEN#@github.com/chundot/nbtca-site.git
   branch: main
-  

@@ -10,7 +10,7 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  项目地址: https://github.com/chundot/nbtca-blog || fas fa-link
+  项目地址: https://github.com/chundot/nbtca-blog || fab fa-github
   链接: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
@@ -78,7 +78,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://oss.chundot.xyz/picgo/cGUit6Aqz3BsF2e.jpg
+  img: https://oss.chundot.xyz/picgo/image-20220318115811126.png
   effect: false
 
 # Disable all banner image

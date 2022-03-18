@@ -8,6 +8,7 @@ tags:
 categories: C/C++
 cover: https://oss.chundot.xyz/picgo/PYVEjWmMy6tkqdQ.png
 description: 写C语言的千奇百怪的编辑器，推荐一些在机房使用的编辑器。
+copyright_author: chundot
 ---
 
 # 写 C 语言的种种工具
@@ -261,6 +262,6 @@ JetBrains 开发的 IDE。
 - 关注我们定期举办的**理工维修日**（不仅仅是维修），成为**志愿者**，或是来这里进行**软件配置**问题和**硬件**咨询，我们非常欢迎！
 
 ![image-20220309222044480](https://oss.chundot.xyz/picgo/3TX1Jiphz5MGHKA.png)
+
 <!-- for wechat -->
 <!-- ![image-20220309222044480](https://clas-bucket.oss-cn-hangzhou.aliyuncs.com/uPic/banner_simple.png) -->
-

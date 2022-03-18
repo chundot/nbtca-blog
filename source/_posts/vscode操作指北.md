@@ -8,6 +8,7 @@ tags:
   - ide
 categories: IDE
 description: vscode入门指北，介绍一些常用操作。
+copyright_author: chundot
 ---
 
 # Visual Studio Code 入门指北

@@ -9,6 +9,7 @@ tags:
 categories: IDE
 description: vscode入门指北，介绍一些常用操作。
 copyright_author: chundot
+copyright_url: https://www.chundot.org/
 ---
 
 # Visual Studio Code 入门指北
@@ -23,7 +24,7 @@ vscode 是由微软团队推出的一款**开源**的**代码编辑器**，有�
 
 ## 为什么使用 vs code?
 
-扩展支持**C/C++**的开发：
+扩展支持**C/Cpp**的开发：
 
 ![](https://oss.chundot.xyz/picgo/8cWuBzF4XeAjdE2.gif)
 

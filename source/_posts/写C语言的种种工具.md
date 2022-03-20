@@ -9,6 +9,7 @@ categories: C/C++
 cover: https://oss.chundot.xyz/picgo/PYVEjWmMy6tkqdQ.png
 description: 写C语言的千奇百怪的编辑器，推荐一些在机房使用的编辑器。
 copyright_author: chundot
+copyright_url: https://www.chundot.org/
 ---
 
 # 写 C 语言的种种工具
@@ -254,7 +255,7 @@ JetBrains 开发的 IDE。
 
 ## 关于计算机协会
 
-- 计协有自己的博客啦：https://nbtca-site.vercel.app/
+- 计协有自己的博客啦：https://nbtca.space/
 - 如果你**碰到学习中的种种问题**，想更加**深入学习计算机软硬件知识**；做**网页**，做**游戏**，做**应用**；修**电脑**，玩**硬件**，做**志愿者活动**；不妨来**计算机协会之家**看看，总有热心的程序员~~秃头~~会解决你的问题！
 
 ![image-20220309214828491](https://oss.chundot.xyz/picgo/17Yizy52PBMZarL.png)

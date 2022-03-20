@@ -6,13 +6,17 @@
       avatar: https://oss.chundot.xyz/picgo/DoEH51Nj97Ah64a.png
       descr: 前端。
     - name: 黄文轩的博客
-      link: http://www.hwx666.com/
+      link: http://www.hwx666.com
       avatar: https://oss.chundot.xyz/picgo/4J9NfH1UZD3sz5I.png
-      descr: 网安，Linux和C/C++。
+      descr: 网安, Linux和C/C++。
     - name: 陈学书的博客
       link: https://www.cnblogs.com/Flat-White
       avatar: https://oss.chundot.xyz/picgo/VjBGkQ6c58vH4l9.png
-      descr: Mac和流水账。
+      descr: Mac, 人工智能, Web和流水账。
+    - name: 王纯的博客
+      link: https://chundot.org
+      avatar: https://oss.chundot.xyz/picgo/avatar.png
+      descr: Web。
 - class_name: 浙大宁波理工学院相关
   class_desc: 学校的相关链接
   link_list:

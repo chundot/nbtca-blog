@@ -8,7 +8,7 @@ categories: Linux
 tid: linux-note-file-io
 description: 有关linux文件io的一系列笔记。
 copyright_author: N3ptune
-copyright_url: http://www.hwx666.com
+copyright_author_href: http://www.hwx666.com
 ---
 
 ## Linux 文件系统结构

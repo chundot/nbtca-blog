@@ -9,7 +9,7 @@ categories: C/C++
 cover: https://oss.chundot.xyz/picgo/PYVEjWmMy6tkqdQ.png
 description: 写C语言的千奇百怪的编辑器，推荐一些在机房使用的编辑器。
 copyright_author: chundot
-copyright_url: https://www.chundot.org/
+copyright_author_href: https://www.chundot.org/
 ---
 
 # 写 C 语言的种种工具
@@ -144,7 +144,7 @@ copyright_url: https://www.chundot.org/
 
 从测试可以看到代码补全**功能有限**，仅限**头文件**，**类型**，**数据结构**和一些**标识符**；**函数基本无补全**。
 
-虽然测试比较局限，但大部分的机器。
+虽然测试比较局限，但大部分的机器基本一致。
 
 ### 优缺点总结
 

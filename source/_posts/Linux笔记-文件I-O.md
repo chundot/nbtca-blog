@@ -2,7 +2,8 @@
 title: Linux笔记 - 文件I/O
 date: 2022-03-19 22:38:56
 tags:
-  - linux
+  - Linux
+  - C
 cover: https://oss.chundot.xyz/picgo/20220320105749.png
 categories: Linux
 tid: linux-note-file-io

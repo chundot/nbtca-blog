@@ -1,6 +1,10 @@
 - class_name: 博客链接
   class_desc: 各位同学们的博客。
   link_list:
+    - name: 鲁冠泽的博客
+      link: https://cimoc.cn/
+      avatar: https://oss.chundot.xyz/picgo/cimoccn.png
+      descr: Java, Web。
     - name: 江蕾的博客
       link: https://www.cnblogs.com/JLay
       avatar: https://oss.chundot.xyz/picgo/DoEH51Nj97Ah64a.png

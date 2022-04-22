@@ -21,6 +21,10 @@
       link: https://chundot.org
       avatar: https://oss.chundot.xyz/picgo/avatar.png
       descr: Web。
+    - name: 章晟玮的博客
+      link: https://bcscb.xyz/
+      avatar: https://cdn.bcscb.xyz/img/1.jpg
+      descr: 算法记录。
 - class_name: 浙大宁波理工学院相关
   class_desc: 学校的相关链接
   link_list:

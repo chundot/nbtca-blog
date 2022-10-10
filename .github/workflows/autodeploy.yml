@@ -37,10 +37,10 @@ jobs:
       - name: 安装 pnpm
         run: |
           npm install pnpm -g
+          pnpm setup
           
       - name: 安装 Hexo
         run: |
-          source ~/.zshrc
           pnpm install hexo-cli -g
           
       - name: 缓存 Hexo

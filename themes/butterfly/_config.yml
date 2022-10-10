@@ -397,7 +397,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text:
+  custom_text: <a href="https://beian.miit.gov.cn/"><img class="icp-icon" src="https://oss.chundot.xyz/picgo/gongan.png"><span>浙ICP备2021030831号-2</span></a>
   copyright: true # Copyright of theme and framework
 
 # Analysis

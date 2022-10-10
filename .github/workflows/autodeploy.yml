@@ -36,8 +36,7 @@ jobs:
       
       - name: 安装 pnpm
         run: |
-          npm install pnpm -g
-          pnpm setup
+          npm install pnpm@6 -g
           
       - name: 安装 Hexo
         run: |

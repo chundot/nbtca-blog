@@ -40,7 +40,7 @@ jobs:
           
       - name: 安装 Hexo
         run: |
-          source ~/.bashrc
+          source ~/.zshrc
           pnpm install hexo-cli -g
           
       - name: 缓存 Hexo
